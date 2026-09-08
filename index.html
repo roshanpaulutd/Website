@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A software developer portfolio website." />
+    <title>Portfolio Website | Software Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topbar">
+        <a class="brand" href="#top"><span aria-hidden="true">&lt;/&gt;</span> ROSHAN PAUL</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span aria-hidden="true">☰</span>
+        </button>
+        <nav id="site-navigation" class="site-navigation" aria-label="Main navigation">
+          <a href="#skills">Skills</a>
+          <a href="#characters">Characters</a>
+          <a href="#experience">Experience</a>
+          <a href="#accomplishments">Accomplishments</a>
+          <a href="#contact">Blog</a>
+        </nav>
+        <a class="header-cta" href="#contact">Contact me <span aria-hidden="true">→</span></a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero page-grid">
+        <div class="hero-copy">
+          <p class="tag">Hey, I’m Roshan Paul <span aria-hidden="true">✦</span></p>
+          <h1>Software<br />Developer</h1>
+          <p class="hero-text">Welcome to my website find out more about me!</p>
+          <div class="hero-actions">
+            <a class="button button-lime" href="#characters">View characters <span aria-hidden="true">↗</span></a>
+            <a class="button button-white" href="#experience">Download resume <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="social-block">
+            <p>Connect with me</p>
+            <div class="social-links">
+              <a href="#contact" aria-label="GitHub">GH</a>
+              <a href="#contact" aria-label="LinkedIn">in</a>
+              <a href="#contact" aria-label="Twitter">X</a>
+              <a href="mailto:hello@example.com" aria-label="Email">@</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Abstract developer workspace illustration" role="img">
+          <img class="hero-character hero-hanging" src="assets/Spidey Tracker hanging.jpg" alt="" />
+          <div class="art-window">
+            <div class="art-sun"></div>
+            <div class="art-column art-column-one"></div>
+            <div class="art-column art-column-two"></div>
+            <div class="art-person"></div>
+          </div>
+          <div class="code-card">
+            <span>&gt; const developer = &#123;</span>
+            <span>code: 'TypeScript',</span>
+            <span>build: 'React',</span>
+            <span>deploy: 'Vercel',</span>
+            <span>focus: 'Great UX'</span>
+            <span>&#125;</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-strip page-grid">
+        <div class="section-label purple-panel">Skills <span aria-hidden="true">→</span></div>
+        <div class="skills-carousel">
+          <div class="skill-window" aria-label="Skills carousel">
+            <div class="skill-list">
+              <div class="skill"><strong aria-hidden="true">AI</strong><span>ChatGPT</span><small>AI Tools</small></div>
+              <div class="skill"><strong aria-hidden="true">CV</strong><span>Canva</span><small>AI Tools</small></div>
+              <div class="skill"><strong aria-hidden="true">PY</strong><span>Python (Basic)</span><small>Technical</small></div>
+              <div class="skill"><strong aria-hidden="true">CAD</strong><span>CAD Design</span><small>Technical</small></div>
+              <div class="skill"><strong aria-hidden="true">XL</strong><span>Microsoft Excel</span><small>Technical</small></div>
+              <div class="skill"><strong aria-hidden="true">PPT</strong><span>PowerPoint</span><small>Technical</small></div>
+              <div class="skill"><strong aria-hidden="true">IG</strong><span>Instagram Marketing</span><small>Marketing</small></div>
+              <div class="skill"><strong aria-hidden="true">CC</strong><span>Canva Content Creation</span><small>Marketing</small></div>
+              <div class="skill"><strong aria-hidden="true">EN</strong><span>English</span><small>Languages</small></div>
+              <div class="skill"><strong aria-hidden="true">FR</strong><span>French</span><small>Languages</small></div>
+              <div class="skill"><strong aria-hidden="true">ML</strong><span>Malayalam</span><small>Languages</small></div>
+            </div>
+          </div>
+          <div class="skill-controls">
+            <button type="button" class="skill-arrow" data-direction="previous" aria-label="Previous skills">‹</button>
+            <button type="button" class="skill-arrow" data-direction="next" aria-label="Next skills">›</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-grid page-grid">
+        <div id="characters" class="characters-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Personal favorites</p>
+              <h2>Favorite characters</h2>
+            </div>
+            <div class="heading-actions">
+              <span class="mini-button">Pixel collection <span aria-hidden="true">✦</span></span>
+            </div>
+          </div>
+          <div class="character-grid">
+            <figure class="character-card character-card-tall">
+              <img src="assets/5a573333c0c7f95120edddc10098c907.jpg" alt="Pixel-art colorful character" />
+              <figcaption>Jolyne <span>character 01</span></figcaption>
+            </figure>
+            <figure class="character-card character-card-pink">
+              <img src="assets/OIP (1).webp" alt="Pixel-art purple character" />
+              <figcaption>Bonnie <span>character 02</span></figcaption>
+            </figure>
+            <figure class="character-card character-card-purple">
+              <img src="assets/OIP.webp" alt="Pixel-art frog character" />
+              <figcaption>Snorlax <span>character 03</span></figcaption>
+            </figure>
+            <figure class="character-card character-card-frog">
+              <img src="assets/Spidey face mask.jpg" alt="Spider-Man face mask" />
+              <figcaption>Spider-Man <span>character 04</span></figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <aside id="accomplishments" class="certifications-panel accomplishments-panel">
+          <p class="eyebrow">Proof of practice</p>
+          <h2>Accomplishments</h2>
+          <div class="cert-list">
+            <div class="certificate">DECA ICDC Qualifier 2023</div>
+            <div class="certificate">The Stock Market Game Texas Top 5 Team 2024</div>
+            <div class="certificate">2025 THSCA Academic All-State Team - Boys Track</div>
+          </div>
+          <a class="mini-button" href="#contact">More accomplishments <span aria-hidden="true">→</span></a>
+        </aside>
+      </section>
+
+      <section id="experience" class="experience-grid page-grid">
+        <div class="section-label pink-panel">Experience <span aria-hidden="true">→</span></div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div>
+              <h3>Marketing Intern <b>• TuHealthy</b></h3><time>May 2024 - September 2024</time>
+              <p class="role-meta">Remote / Texas</p>
+              <ul>
+                <li>Designed email campaigns for 5,000+ recipients, improving open rates by about 20%.</li>
+                <li>Educated customers on blood testing options and supported acquisition through digital outreach and segmentation.</li>
+                <li>Collaborated across teams to improve marketing workflows and campaign efficiency.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div>
+              <h3>Employee <b>• Code Ninjas</b></h3><time>February 2025 - August 2025</time>
+              <p class="role-meta">Georgetown, TX</p>
+              <ul>
+                <li>Instructed and mentored 100+ students in Python and C++.</li>
+                <li>Provided individualized feedback that supported student retention and engagement.</li>
+                <li>Facilitated hands-on coding projects focused on real-world programming applications.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div>
+              <h3>Shadowing Experience <b>• Summit Spine and Joint Centers</b></h3><time>2023</time>
+              <p class="role-meta">Decatur, GA · Volunteer Experience</p>
+              <ul>
+                <li>Observed patient consultations and treatment planning.</li>
+                <li>Gained exposure to spinal procedures and pain management techniques.</li>
+              </ul>
+            </div>
+          </article>
+          <a class="mini-button" href="#contact">View full resume <span aria-hidden="true">→</span></a>
+        </div>
+        <div id="contact" class="contact-panel">
+          <img class="pixel-accent contact-accent" src="assets/pixel-burst.svg" alt="" />
+          <p>Let’s build<br />something<br />amazing<br />together.</p>
+          <a class="button button-black" href="mailto:hello@example.com">Get in touch <span aria-hidden="true">→</span></a>
+          <div class="burst" aria-hidden="true">✦</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#top"><span aria-hidden="true">&lt;/&gt;</span> ROSHAN PAUL</a>
+      <p>Inspo: <a href="https://www.pinterest.com/pin/38210296835888236/" target="_blank" rel="noopener noreferrer">Software Developer Portfolio</a></p>
+      <div class="footer-links"><a href="#contact">GH</a><a href="#contact">in</a><a href="#contact">X</a><a href="mailto:hello@example.com">@</a></div>
+    </footer>
+  </body>
+</html>
